@@ -1,9 +1,11 @@
+import Navbar from "./componets/NavBar";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Olá a todos amiguinhos</h1>
+
+        <Navbar />
       </header>
     </div>
   );
