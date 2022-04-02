@@ -5,11 +5,10 @@ import './style.css'
 function Navbar() {
     return (
         <header>
-            <nav className="container">
-                <div className="dsmovie-nav-content">
-                    <LogoEmp />
-                </div>
-            </nav>
+            <div className="gp-nav-content">
+                <LogoEmp />
+                <h6>Gerenciador de Pedidos</h6>
+            </div>
         </header>
     );
 }

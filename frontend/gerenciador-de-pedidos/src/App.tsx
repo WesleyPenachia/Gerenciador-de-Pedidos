@@ -1,13 +1,23 @@
-import Navbar from "./componets/NavBar";
+import Footer from "components/Footer";
+import Navbar from "components/NavBar";
+import Lista from "pages/Lista-Pedidos";
+import Login from "pages/Login";
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
-        <Navbar />
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/lista" element={<Lista /> } />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

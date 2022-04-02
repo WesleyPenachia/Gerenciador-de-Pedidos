@@ -1,0 +1,14 @@
+
+
+.copy-text {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    background-color: var(--color-primary);
+    padding: 2%;
+}
+
+
